@@ -27,15 +27,8 @@ function renderHeader() {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
-        <a href="${BASE}" class="flex items-center gap-2 group" aria-label="HMCarePlanner Home">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-700 to-teal-500 flex items-center justify-center">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342"/>
-            </svg>
-          </div>
-          <div>
-            <span class="text-xl font-bold text-slate-800 group-hover:text-blue-700 transition-colors">HMCare<span class="text-blue-600">Planner</span></span>
-          </div>
+        <a href="${BASE}" class="flex items-center group" aria-label="HMCarePlanner Home">
+          <img src="${BASE}images/hmcareplanner_logo_header.png" alt="HMCarePlanner logo" class="h-12 md:h-14 w-auto object-contain transition-transform group-hover:scale-[1.02]">
         </a>
 
         <!-- Desktop Navigation -->
@@ -138,13 +131,8 @@ function renderFooter() {
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         <!-- Brand -->
         <div class="lg:col-span-1">
-          <a href="${BASE}" class="flex items-center gap-2 mb-4">
-            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-teal-400 flex items-center justify-center">
-              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342"/>
-              </svg>
-            </div>
-            <span class="text-xl font-bold">HMCare<span class="text-blue-400">Planner</span></span>
+          <a href="${BASE}" class="inline-flex items-center mb-4 bg-white rounded-xl px-3 py-2">
+            <img src="${BASE}images/hmcareplanner_logo_header.png" alt="HMCarePlanner logo" class="h-10 md:h-12 w-auto object-contain">
           </a>
           <p class="text-slate-400 text-sm leading-relaxed mb-6">Simple-to-use, cloud-based care management software designed for UK domiciliary care agencies. CQC-ready from day one.</p>
           <div class="flex gap-3">
