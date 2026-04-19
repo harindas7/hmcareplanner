@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free 14-Day Trial | Domiciliary Care Software | HMCarePlanner</title>
+  <meta name="description" content="Start your free 14-day trial of HMCarePlanner. Full access to rostering, eMAR, care plans & CQC tools. No credit card needed. Set up in minutes.">
+  <meta name="keywords" content="free trial care software, try domiciliary care software free, HMCarePlanner free trial, care agency software trial UK">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.hmcareplanner.co.uk/free-trial/">
+  <meta property="og:title" content="Free 14-Day Trial | HMCarePlanner">
+  <meta property="og:description" content="Try HMCarePlanner free for 14 days. Full access to all features. No credit card needed.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.hmcareplanner.co.uk/free-trial/">
+  <meta property="og:site_name" content="HMCarePlanner">
+  <meta property="og:image" content="https://www.hmcareplanner.co.uk/images/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free 14-Day Trial | HMCarePlanner">
+  <meta name="twitter:description" content="Try HMCarePlanner free for 14 days. Full access. No credit card needed.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.hmcareplanner.co.uk/"},
+      {"@type": "ListItem", "position": 2, "name": "Free Trial"}
+    ]
+  }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body class="antialiased text-slate-800 bg-white">
+  <div id="header-placeholder"></div>
+  <main id="main-content">
+    <section class="hero-gradient relative overflow-hidden py-16 md:py-24 section-wave">
+      <div class="absolute inset-0 opacity-10"><div class="absolute top-20 right-20 w-96 h-96 bg-white rounded-full blur-3xl"></div></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6">Start HMCarePlanner Free</h1>
+        <p class="text-xl text-blue-100 max-w-2xl mx-auto">Provide your details and we'll set up exclusive FREE access to the HMCarePlanner platform for 14 days.</p>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-start">
+          <!-- Form -->
+          <div class="reveal">
+            <form id="trial-form" class="bg-white rounded-2xl shadow-xl border border-slate-100 p-8 space-y-5">
+              <h2 class="text-2xl font-bold text-slate-900 mb-2">Free Trial for 14 Days</h2>
+              <p class="text-slate-600 text-sm mb-4">Complete the form below to get started. No credit card required.</p>
+              <div id="trial-alert" class="hidden rounded-xl p-4 text-sm font-medium"></div>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="trial-firstname" class="block text-sm font-medium text-slate-700 mb-1.5">First Name *</label>
+                  <input type="text" id="trial-firstname" name="firstname" class="form-input" placeholder="John" required>
+                </div>
+                <div>
+                  <label for="trial-lastname" class="block text-sm font-medium text-slate-700 mb-1.5">Last Name *</label>
+                  <input type="text" id="trial-lastname" name="lastname" class="form-input" placeholder="Smith" required>
+                </div>
+              </div>
+              <div>
+                <label for="trial-email" class="block text-sm font-medium text-slate-700 mb-1.5">Email Address *</label>
+                <input type="email" id="trial-email" name="email" class="form-input" placeholder="john@youragency.co.uk" required>
+              </div>
+              <div>
+                <label for="trial-phone" class="block text-sm font-medium text-slate-700 mb-1.5">Phone Number *</label>
+                <input type="tel" id="trial-phone" name="phone" class="form-input" placeholder="020 1234 5678" required>
+              </div>
+              <div>
+                <label for="trial-company" class="block text-sm font-medium text-slate-700 mb-1.5">Company / Agency Name *</label>
+                <input type="text" id="trial-company" name="company" class="form-input" placeholder="Your Care Agency Ltd" required>
+              </div>
+              <div>
+                <label for="trial-size" class="block text-sm font-medium text-slate-700 mb-1.5">Number of Carers</label>
+                <select id="trial-size" name="size" class="form-input">
+                  <option value="">Select...</option>
+                  <option value="1-10">1 – 10</option>
+                  <option value="11-25">11 – 25</option>
+                  <option value="26-50">26 – 50</option>
+                  <option value="50+">50+</option>
+                </select>
+              </div>
+              <button type="submit" id="trial-submit" class="btn-accent w-full text-center text-lg">Start My Free Trial</button>
+              <p class="text-xs text-slate-500 text-center">Free Trial includes full access to all features for 14 days. After this, you may cancel or upgrade to a paid subscription. By signing up you agree to our <a href="/privacy-policy/" class="text-blue-600 hover:underline">Privacy Policy</a>.</p>
+            </form>
+            <script>
+              document.getElementById('trial-form').addEventListener('submit', async function(e) {
+                e.preventDefault();
+                const btn = document.getElementById('trial-submit');
+                const alert = document.getElementById('trial-alert');
+                const originalText = btn.textContent;
+                btn.textContent = 'Submitting...';
+                btn.disabled = true;
+                btn.classList.add('opacity-60');
+                alert.classList.add('hidden');
+                try {
+                  const res = await fetch('/api/free-trial.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                      firstName: document.getElementById('trial-firstname').value,
+                      lastName: document.getElementById('trial-lastname').value,
+                      email: document.getElementById('trial-email').value,
+                      phone: document.getElementById('trial-phone').value,
+                      company: document.getElementById('trial-company').value,
+                      clients: document.getElementById('trial-size').value
+                    })
+                  });
+                  const data = await res.json();
+                  alert.classList.remove('hidden', 'bg-red-50', 'text-red-700', 'bg-green-50', 'text-green-700');
+                  if (data.success) {
+                    alert.classList.add('bg-green-50', 'text-green-700');
+                    alert.innerHTML = '<div class="flex items-center gap-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>' + data.message + '</div>';
+                    this.reset();
+                  } else {
+                    alert.classList.add('bg-red-50', 'text-red-700');
+                    alert.innerHTML = '<div class="flex items-center gap-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>' + data.error + '</div>';
+                  }
+                } catch (err) {
+                  alert.classList.remove('hidden', 'bg-green-50', 'text-green-700');
+                  alert.classList.add('bg-red-50', 'text-red-700');
+                  alert.innerHTML = '<div class="flex items-center gap-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Network error. Please try again or call us on 0208 058 0920.</div>';
+                }
+                btn.textContent = originalText;
+                btn.disabled = false;
+                btn.classList.remove('opacity-60');
+              });
+            </script>
+          </div>
+
+          <!-- Benefits -->
+          <div class="reveal">
+            <div class="mb-8">
+              <span class="inline-block text-sm font-semibold text-amber-600 bg-amber-50 px-4 py-1.5 rounded-full mb-4">What You Get</span>
+              <h2 class="text-3xl font-bold text-slate-900 mb-4">Explore the Power of Our Platform</h2>
+              <p class="text-lg text-slate-600">Full access to every feature during your 14-day trial. No limitations, no restrictions.</p>
+            </div>
+            <div class="space-y-4 mb-8">
+              <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-xl">
+                <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900">Free 14-Day Trial</div>
+                  <div class="text-sm text-slate-500">Full unrestricted access to all modules</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-xl">
+                <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900">No Payment Details Required</div>
+                  <div class="text-sm text-slate-500">Start instantly with zero commitment</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-xl">
+                <div class="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900">Start in Minutes</div>
+                  <div class="text-sm text-slate-500">Quick setup — be running within minutes</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-xl">
+                <div class="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900">Easy & Secure Access</div>
+                  <div class="text-sm text-slate-500">Enterprise-grade security from day one</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-xl">
+                <div class="w-10 h-10 rounded-lg bg-rose-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-rose-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900">Cancel Anytime</div>
+                  <div class="text-sm text-slate-500">No obligation — cancel if it's not right for you</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-xl">
+                <div class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg>
+                </div>
+                <div>
+                  <div class="font-semibold text-slate-900">Keep Your Data</div>
+                  <div class="text-sm text-slate-500">Continue with all your data after the trial period</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script src="/js/components.js"></script>
+</body>
+</html>

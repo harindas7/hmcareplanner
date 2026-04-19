@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://www.hmcareplanner.co.uk/sitemap.xml
